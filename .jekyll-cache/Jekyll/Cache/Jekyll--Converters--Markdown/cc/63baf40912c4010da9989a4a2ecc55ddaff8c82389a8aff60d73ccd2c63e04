@@ -1,10 +1,10 @@
-I"ƒ×<p>For this project Iâ€™m actually revisiting this particular topic. The original version of this project was done at a feverish pace due to time constraints, so I wanted to come back and use the experience as an opportunity to tidy up my approach and learn a new web scraping framework, Scrapy. Some aspects of the tools and methodology might seem like using a bazooka to swat a fly, but on that day when you need a bazooka, you wanted it pointed at the advancing zombie hordes and not your face!</p>
+I"WØ<p>For this project Iâ€™m actually revisiting this particular topic. The original version of this project was done at a feverish pace due to time constraints, so I wanted to come back and use the experience as an opportunity to tidy up my approach and learn a new web scraping framework, Scrapy. Some aspects of the tools and methodology might seem like using a bazooka to swat a fly, but on that day when you need a bazooka, you wanted it pointed at the advancing zombie hordes and not your face!</p>
 
 <p>Specifically, this project is an examination of <strong>what factors are most important for a film recouping its production budget</strong>. Genre, budget, critical reviews, user reviews, opening weekend performance? That last one is of particular interest since there is so much reporting on the subject of opening weekend revenue in film journalism. Generally speaking Hollywood believes that the opening weekend metric is the biggest indicator of overall performance and thus the financial fate of a film. I wanted to see if this was true and or if other factors matter just as much.</p>
 
 <p>To do this I constructed a <strong>linear regression model with film data web scraped from IMDb and IMDb Pro.</strong> The model will attempt to generate the best prediction possible for the proportion of budget that is recouped at the end of a theatrical run. But the main focus is, <strong>given the best model we can produce, which variables contribute most to recouping budget.</strong></p>
 
-<p>Visit the <a href="">Github repo</a> to see the data, code and notebooks used in the project.</p>
+<p>Visit the <a href="https://github.com/Starplatinum87/Film-ROI-Project">Github repo</a> to see the data, code and notebooks used in the project.</p>
 
 <h3 id="methodology">Methodology</h3>
 <ul>
@@ -592,4 +592,7 @@ R-Squared: 0.7053
 <ul>
   <li>There is a rather important category of predictor that I wasnâ€™t able to use for this study, <strong>principal cast and crew</strong>. In the future I would like to <strong>use data about the popularity of principal cast and crew of a film to see what predictive power it could have for a linear model</strong>. Specifically I would like to look at their STARMeter rating before release and the historical financial peformance of films theyâ€™ve been in before the release of the film in question. I think thereâ€™s great potential for solid prediction with these features.</li>
 </ul>
+
+<h2 id="github-repo">Github Repo</h2>
+<p><a href="https://github.com/Starplatinum87/Film-ROI-Project">https://github.com/Starplatinum87/Film-ROI-Project</a></p>
 :ET

@@ -9,7 +9,7 @@ Specifically, this project is an examination of __what factors are most importan
 
 To do this I constructed a __linear regression model with film data web scraped from IMDb and IMDb Pro.__ The model will attempt to generate the best prediction possible for the proportion of budget that is recouped at the end of a theatrical run. But the main focus is, __given the best model we can produce, which variables contribute most to recouping budget.__ 
 
-Visit the [Github repo](https://github.com/Starplatinum87/Film-ROI-Project) to see the data, code and notebooks used in the project.
+Visit the <a href="https://github.com/Starplatinum87/Film-ROI-Project" target="_blank">Github repo</a> to see the data, code and notebooks used in the project.
 
 ### Methodology
 - Use the web scraping framework Scrapy, along with Selenium, to gather data on films released 2010 - 2018. This interval was chosen to keep the movies relatively recent and also to ensure that the we had their final box office revenue numbers. Theatrical runs generally only last a few months at the very longest.
@@ -608,3 +608,6 @@ So it seems that __by far opening_ratio and user_votes are the most important fa
 
 ## Future Work
 - There is a rather important category of predictor that I wasn't able to use for this study, __principal cast and crew__. In the future I would like to __use data about the popularity of principal cast and crew of a film to see what predictive power it could have for a linear model__. Specifically I would like to look at their STARMeter rating before release and the historical financial peformance of films they've been in before the release of the film in question. I think there's great potential for solid prediction with these features. 
+
+## Github Repo
+<a href="https://github.com/Starplatinum87/Film-ROI-Project" target="_blank">https://github.com/Starplatinum87/Film-ROI-Project</a>
