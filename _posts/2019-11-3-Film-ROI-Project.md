@@ -9,6 +9,8 @@ Specifically, this project is an examination of __what factors are most importan
 
 To do this I constructed a __linear regression model with film data web scraped from IMDb and IMDb Pro.__ The model will attempt to generate the best prediction possible for the proportion of budget that is recouped at the end of a theatrical run. But the main focus is, __given the best model we can produce, which variables contribute most to recouping budget.__ 
 
+Visit the [Github repo](https://github.com/Starplatinum87/Film-ROI-Project) to see the data, code and notebooks used in the project.
+
 ### Methodology
 - Use the web scraping framework Scrapy, along with Selenium, to gather data on films released 2010 - 2018. This interval was chosen to keep the movies relatively recent and also to ensure that the we had their final box office revenue numbers. Theatrical runs generally only last a few months at the very longest.
 - The data gathered is comprised of box office revenue, runtime, critic and user reviews, and genres. This is a mix of pre-release and post release data, which is of dubious value if the only point is to predict performance a significant amount of time before release. However, again the idea is to identify the factors that contribute most strongly to positive budget recoup. I strongly believe that post-release factors can be important to a film's financial fate (reviews) and are things that filmmakers can adjust and optimize for in the development and production phases of a film. 
