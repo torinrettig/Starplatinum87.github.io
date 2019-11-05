@@ -3,7 +3,7 @@ layout: post
 title: Film ROI Project - Web Scraping and Linear Regression
 ---
 
-For this project I'm actually revisiting this particular topic. The original version of this project was done at a feverish pitch due to time constraints, so I wanted to come back and use the experience as an opportunity to tidy up my approach and learn a new web scraping framework, Scrapy. Some aspects of the tools and methodology might seem like using a bazooka to swat a fly, but on that day when you need a bazooka, you wanted it pointed at the advancing zombie hordes and not your face!
+For this project I'm actually revisiting this particular topic. The original version of this project was done at a feverish pace due to time constraints, so I wanted to come back and use the experience as an opportunity to tidy up my approach and learn a new web scraping framework, Scrapy. Some aspects of the tools and methodology might seem like using a bazooka to swat a fly, but on that day when you need a bazooka, you wanted it pointed at the advancing zombie hordes and not your face!
 
 Specifically, this project is an examination of __what factors are most important for a film recouping its production budget__. Genre, budget, critical reviews, user reviews, opening weekend performance? That last one is of particular interest since there is so much reporting on the subject of opening weekend revenue in film journalism. Generally speaking Hollywood believes that the opening weekend metric is the biggest indicator of overall performance and thus the financial fate of a film. I wanted to see if this was true and or if other factors matter just as much. 
 

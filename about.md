@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-Torin is a Data Scientist with a background in video game production and development. His approach is both analytical and creative with a focus on clear and engaging communication and presentation. His background in product development at major corporations leading cross-functional teams in the production of multi-million dollar game projects gives him a strong technical and managerial background, along with a keen business sense that puts the consumer at the center of all product considerations. 
+Hello! I am a Data Scientist with a background in video game production and development. I'm mostly analytical, but I have a strong creative streak. I like to solve problems, think deeply, learn new things and make beautiful, compelling  presentations. 
+
+In my previous life I was in video game product development at both Sony and Microsoft which gave me great experience leading cross-functional teams and presenting to stakeholders, as well as strong technical and managerial skills. At the end of the day though I love making cool things cooler.   
 
 ### Contact me
 
