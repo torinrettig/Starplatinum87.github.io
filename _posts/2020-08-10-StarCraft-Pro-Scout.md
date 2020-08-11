@@ -1,9 +1,7 @@
 ---
 layout: post
-title: StarCraft Pro Scout
+title: StarCraft Pro Scout - Supervised Classification
 ---
-
-## 1. Proposal
 
 eSports has become big business over the past couple of decades. Going from small Quake LAN tournaments in someone’s basement to arena events with thousands of spectators, streamed to tens of millions of viewers, with multi-million dollar prizes to be won. __StarCraft is the original eSport and continues to be popular, generating over $37 million in winnings for its pro players. __ 
 
@@ -58,10 +56,10 @@ __Visit the [Github repo](https://github.com/Starplatinum87/StarCraft-Pro-Scout)
   - **ComplexAbilityUsed**: Abilities requiring specific targeting instructions used per timestamp (continuous)
   - **MaxTimeStamp**: Time stamp of game's last recorded event (integer)
 - Data Files
-  - **Source Data File: /data/starcraft.csv**
-  - **Data Documentation: /data/StarCraft2ReplayAnalysisDocumentation-1.pdf**
+  - **Source Data File: [StarCraft2ReplayAnalysis.csv](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/data/StarCraft2ReplayAnalysis-1.csv)**
+  - **Data Documentation: [StarCraft2ReplayAnalysisDocumentation-1.pdf](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/data/StarCraft2ReplayAnalysis-1.csv)**
 
-## 2. Tools
+## 1. Tools
 
 - Python
 - Jupyter Notebooks
@@ -73,9 +71,9 @@ __Visit the [Github repo](https://github.com/Starplatinum87/StarCraft-Pro-Scout)
 - StatsModels
 - Patsy
 
-## 3. Data Cleaning
+## 2. Data Cleaning
 
-**Source File: /notebooks/scpro_data_clean.ipynb**
+**Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_data_clean.ipynb)**
 
 General data cleaning consisted of removing duplicate entires, dropping the GameID column, dealing with significant outliers, and dealing with NaN values. 
 
@@ -87,10 +85,10 @@ NaNs were a bit more troublesome. After investigating it turned out that they we
 
 Ultimately, since I didn't have *any* data on Pro players for these features there was not an effective way to infer what the numbers would be through normal techniques like taking the mean or doing a regression, so I made the tough decision to just __remove these features (Age, TotalHours, HoursPerWeek) from the dataset__.
 
-## 4. Feature Selection
+## 3. Feature Selection
 
-**Source File: /notebooks/scpro_eda.ipynb**
-**Source File: /notebooks/scpro_data_clean.ipynb**
+**Source File: [scpro_eda.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**
+**Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**
 
 ### Testing Normality
 
@@ -149,7 +147,7 @@ Only taking multicollinearity into account
 
 
 
-## 5. League Compression
+## 4. League Compression
 Another decision I made was to compress the League from 8 down to 2 groups of Leagues. 
 
 __8 Leagues__
@@ -170,9 +168,9 @@ __2 Categories__
 
 I did this for a couple of few reasons. One, was because of the relatively small representation in the upper Leagues. Ideally we would have two categories, Pro and Non-Pro, but there is so little representation in the Pro category (55 out of 3367) that the class imbalance would be too great to be able to effectively classify. Two, these top Leagues are actually the ones we're most interested. Knowing how the lower Leagues sort out is interesting, but ultimately we want to know who has Pro potential. The level of play at the top Leagues is all very high so knowing who falls into this much larger category is still very valuable. 
 
-## 6. Modeling 
+## 5. Modeling 
 
-**Source Files: /notebooks**
+**Source Files: [/notebooks/](https://github.com/Starplatinum87/StarCraft-Pro-Scout/tree/master/notebooks)**
 
 As mentioned above I ended up dividing the modeling into two categories, non-parametric and parametric, with a custom set of variables for each. Because there were many more variables to work with for non-parametric I ended up spending most of my time and effort with those.
 
@@ -222,9 +220,14 @@ Even if we decide not to use Random Forests as our model, it does have another g
 
 This is very cool to see, but not very surprising. __APM is Actions Per Minute, which is at the top of the feature importance list, is essentially how quickly you can input commands in the game__. Raw speed of input is not usually a very useful metric for most competitive video games, but __StarCraft is a game of intense multitasking__ and if you can't do it quickly and accurately you simply won't perform well, no matter how good your tactical or strategic capabilities are. APM has been used as a high-profile measure of technical skill in StarCraft and other real-time strategy games, and the importance of the feature here reinforces the idea that this is actually a good measure of ability. 
 
-## 7. Future Work
+## 6. Future Work
 
 Given more time I would definitely like to investigate parametric approaches more thoroughly. There may be more gains in Logistic Regression or other approaches that don't sacrifice Accuracy to the degree that it did in my initial explorations. I would also like to attempt to apply these methodologies and insights to other datasets of similar types of variables for other competitive games. 
 
 I think there's definite potential for predictive power with the right variables and metrics and this can be very valuable both for the eSports scene and for game development purposes. Finding automated ways gauge player skill and respond programmatically to optimize the experience would be extremely helpful for making better gaming experiences. 
 
+## 7. Resources
+
+- [GitHub Repository](https://github.com/Starplatinum87/StarCraft-Pro-Scout) - GitHub repository containing all code, notebooks and data.
+- [Presentation Deck](https://github.com/Starplatinum87/StarCraft-Pro-Scout/tree/master/presentation) - This is a PowerPoint presentation deck created for a live presentation of project results. 
+- [Modeling Data](https://github.com/Starplatinum87/StarCraft-Pro-Scout/tree/master/notebooks/model_tracking) - Spreadsheet tracking the various algorithms and metrics data generated for the project. 
