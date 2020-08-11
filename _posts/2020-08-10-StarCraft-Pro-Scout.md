@@ -73,7 +73,7 @@ __Visit the [Github repo](https://github.com/Starplatinum87/StarCraft-Pro-Scout)
 
 ## 2. Data Cleaning
 
-**Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_data_clean.ipynb)**
+- **Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_data_clean.ipynb)**
 
 General data cleaning consisted of removing duplicate entires, dropping the GameID column, dealing with significant outliers, and dealing with NaN values. 
 
@@ -87,8 +87,8 @@ Ultimately, since I didn't have *any* data on Pro players for these features the
 
 ## 3. Feature Selection
 
-**Source File: [scpro_eda.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**
-**Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**
+- ** Source File: [scpro_eda.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**  
+- ** Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**
 
 ### Testing Normality
 
@@ -170,7 +170,7 @@ I did this for a couple of few reasons. One, was because of the relatively small
 
 ## 5. Modeling 
 
-**Source Files: [/notebooks/](https://github.com/Starplatinum87/StarCraft-Pro-Scout/tree/master/notebooks)**
+- **Source Files: [/notebooks/](https://github.com/Starplatinum87/StarCraft-Pro-Scout/tree/master/notebooks)**
 
 As mentioned above I ended up dividing the modeling into two categories, non-parametric and parametric, with a custom set of variables for each. Because there were many more variables to work with for non-parametric I ended up spending most of my time and effort with those.
 
