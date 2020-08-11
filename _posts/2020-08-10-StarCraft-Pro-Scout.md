@@ -3,7 +3,7 @@ layout: post
 title: StarCraft Pro Scout - Supervised Classification
 ---
 
-eSports has become big business over the past couple of decades. Going from small Quake LAN tournaments in someone’s basement to arena events with thousands of spectators, streamed to tens of millions of viewers, with multi-million dollar prizes to be won. __StarCraft is the original eSport and continues to be popular, generating over $37 million in winnings for its pro players. __ 
+eSports has become big business over the past couple of decades. Going from small Quake LAN tournaments in someone’s basement to arena events with thousands of spectators, streamed to tens of millions of viewers, with multi-million dollar prizes to be won. __StarCraft is the original eSport and continues to be popular, generating over $37 million in winnings for its pro players.__ 
 
 __What if you could predict who the next big eSports player would be?__ StarCraft's competitive online multiplayer has a league system and players move up and down the 8 leagues depending on their wins and losses in online games with other players. Far from being just a cool way to show how many opponents you've beaten, the StarCraft League system is where the best players compete for dominance to show their prowess and readiness to join the StarCraft tournament circuit. At the top tiers of the Leagues membership is limited with the top percentage of players in a particular League being promoted up and the lower percentage being demoted down. The fierceness of the competition and caliber of players playing in the Leagues makes it a good gauge of who will do well in tournaments and win. 
 
@@ -87,8 +87,8 @@ Ultimately, since I didn't have *any* data on Pro players for these features the
 
 ## 3. Feature Selection
 
-- ** Source File: [scpro_eda.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**  
-- ** Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**
+- **Source File: [scpro_eda.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**  
+- **Source File: [scpro_data_clean.ipynb](https://github.com/Starplatinum87/StarCraft-Pro-Scout/blob/master/notebooks/scpro_eda.ipynb)**
 
 ### Testing Normality
 
