@@ -11,7 +11,7 @@ __Using classification and supervised learning techniques the goal of this proje
 
 An effective model for classifying players into Leagues based on their technical execution skills can allow eSports teams to scout promising pro players early to bolster the roster of their teams and increase revenue by winning tournaments. 
 
-__Visit the [Github repo](https://github.com/Starplatinum87/StarCraft-Pro-Scout) to see the data, code and notebooks used in the project.__ 
+__Visit the [Github repo](https://github.com/torinrettig/StarCraft-Pro-Scout) to see the data, code and notebooks used in the project.__ 
 
 ### Assumptions
 
@@ -228,6 +228,6 @@ I think there's definite potential for predictive power with the right variables
 
 ## 7. Resources
 
-- [GitHub Repository](https://github.com/Starplatinum87/StarCraft-Pro-Scout) - GitHub repository containing all code, notebooks and data.
-- [Presentation Deck](https://github.com/Starplatinum87/StarCraft-Pro-Scout/tree/master/presentation) - This is a PowerPoint presentation deck created for a live presentation of project results. 
-- [Modeling Data](https://github.com/Starplatinum87/StarCraft-Pro-Scout/tree/master/notebooks/model_tracking) - Spreadsheet tracking the various algorithms and metrics data generated for the project. 
+- [GitHub Repository](https://github.com/torinrettig/StarCraft-Pro-Scout) - GitHub repository containing all code, notebooks and data.
+- [Presentation Deck](https://github.com/torinrettig/StarCraft-Pro-Scout/tree/master/presentation) - This is a PowerPoint presentation deck created for a live presentation of project results. 
+- [Modeling Data](https://github.com/torinrettig/StarCraft-Pro-Scout/tree/master/notebooks/model_tracking) - Spreadsheet tracking the various algorithms and metrics data generated for the project. 
