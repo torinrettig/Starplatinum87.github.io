@@ -19,7 +19,7 @@ Regardless of whether or not this was the case though, while toxic fandoms usual
 
 So with this in mind, I will first perform a sentiment analysis on reviews of *Star Wars: The Last Jedi* then perform topic modeling on the negative reviews to see what issues are of most concern to those who did not like the film.
 
-__Visit the [Github repo](https://github.com/Starplatinum87/TLJ_NLP_Sentiment_Topics) to see the data, code and notebooks used in the project.__ 
+__Visit the [Github repo](https://github.com/torinrettig/TLJ_NLP_Sentiment_Topics) to see the data, code and notebooks used in the project.__ 
 
 ### Assumptions
 
@@ -302,9 +302,9 @@ A lot of work was done between the sentiment analysis and topic modeling for thi
 
 ## 8. Resources
 
-- [GitHub Repository](https://github.com/Starplatinum87/TLJ_NLP_Sentiment_Topics) - GitHub repository containing all code, notebooks and data.
+- [GitHub Repository](https://github.com/torinrettig/TLJ_NLP_Sentiment_Topics) - GitHub repository containing all code, notebooks and data.
 
-- [Presentation Deck](https://github.com/Starplatinum87/TLJ_NLP_Sentiment_Topics/blob/master/presentation/TLJ_Sentiment_Topics_Presentation_v3.pptx) - This is a PowerPoint presentation deck created for a live presentation of project results. 
+- [Presentation Deck](https://github.com/torinrettig/TLJ_NLP_Sentiment_Topics/blob/master/presentation/TLJ_Sentiment_Topics_Presentation_v3.pptx) - This is a PowerPoint presentation deck created for a live presentation of project results. 
 
   
 
