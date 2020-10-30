@@ -610,4 +610,4 @@ So it seems that __by far opening_ratio and user_votes are the most important fa
 - There is a rather important category of predictor that I wasn't able to use for this study, __principal cast and crew__. In the future I would like to __use data about the popularity of principal cast and crew of a film to see what predictive power it could have for a linear model__. Specifically I would like to look at their STARMeter rating before release and the historical financial peformance of films they've been in before the release of the film in question. I think there's great potential for solid prediction with these features. 
 
 ## Github Repo
-<a href="https://github.com/Starplatinum87/Film-ROI-Project" target="_blank">https://github.com/Starplatinum87/Film-ROI-Project</a>
+<a href="https://github.com/torinrettig/Film-ROI-Project" target="_blank">https://github.com/torinrettig/Film-ROI-Project</a>
