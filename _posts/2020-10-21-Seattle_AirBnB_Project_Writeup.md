@@ -8,7 +8,7 @@ This is a project that I felt would be relatively simple, but that turned out to
 
 The goal of this project was to take an AirBnB dataset for all of the properties in Seattle, Washington 2016 and use it to answer 3 questions about the data and then come up with a predictive model for a feature of the data. 
 
-__Visit the [Github repo](https://github.com/Starplatinum87/AirBnB_Seattle_Project) to see the data, code and notebooks used in the project.__ 
+__Visit the [Github repo](https://github.com/torinrettig/AirBnB_Seattle_Project) to see the data, code and notebooks used in the project.__ 
 
 ### Data
 
@@ -407,5 +407,5 @@ Seeing the bottom 20 features can be helpful as well.
 
 ## 8. Resources
 
-- [GitHub Repository](https://github.com/Starplatinum87/TLJ_NLP_Sentiment_Topics) - GitHub repository containing all code, notebooks and data.
+- [GitHub Repository](https://github.com/torinrettig/TLJ_NLP_Sentiment_Topics) - GitHub repository containing all code, notebooks and data.
 
