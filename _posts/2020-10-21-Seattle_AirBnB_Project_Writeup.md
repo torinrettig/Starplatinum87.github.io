@@ -211,7 +211,7 @@ There's not a standard way to define the "top occupancy" so we'll look at the pl
 
 Pricing may be a factor in occupancy so it would be good to see what the relationship is between occupancy and mean price of a listing.
 
-![](images/Screen Shot 2020-10-20 at 3.17.52 PM.png)
+<img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 3.17.52 PM.png" style="zoom: 67%;" />
 
 - This scatterplot and regression line **strongly indicates there is no relationship between occupancy and listing price.** The regression line is almost flat and the distribution of points looks relatively random.
 
