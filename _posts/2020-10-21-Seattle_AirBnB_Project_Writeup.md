@@ -282,8 +282,7 @@ Ridge regression applies a regularization on linear regression that penalizes hi
 
 For Ridge (and Lasso) the parameter to be tuned is `alpha`, and it determines how strongly regularization is applied. I searched through the `alpha` values [0.0001, 0.001, 0.01, 0.1, 1.0, 10.0, 100.0, 1000.0, 10000.0] initially:
 
-
-<img src="/Users/starplatinum87/Google Drive/DATA_SCIENCE/Courses/Udacity - Data Science Nanodegree/AirBnB_Seattle_Project/writeup/images/Screen Shot 2020-10-20 at 4.06.31 PM.png" style="zoom:50%;" />
+<img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 4.06.31 PM.png" style="zoom:50%;" />
 
 - The plot above shows the `alpha` value on the x-axis and the mean squared error (MSE) on the y-axis. Note that the x-axis is on the log10 scale. The cross-validation results were:
 
@@ -301,7 +300,7 @@ Lasso is very similar to ridge regression, except that instead of reducing the e
 
 Lasso also uses `alpha` as it's hyperparameter and I searched over the same set of values as ridge. 
 
-<img src="/Users/starplatinum87/Google Drive/DATA_SCIENCE/Courses/Udacity - Data Science Nanodegree/AirBnB_Seattle_Project/writeup/images/Screen Shot 2020-10-20 at 4.22.56 PM.png" style="zoom:50%;" />
+<img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 4.22.56 PM.png" style="zoom:50%;" />
 
 
 
@@ -381,7 +380,7 @@ Random forests allow us to see the relative importance of each features, which i
 
 ### Top 20 Features
 
-<img src="/Users/starplatinum87/Google Drive/DATA_SCIENCE/Courses/Udacity - Data Science Nanodegree/AirBnB_Seattle_Project/writeup/images/Screen Shot 2020-10-20 at 5.00.42 PM.png" style="zoom:50%;" />
+<img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 5.00.42 PM.png" style="zoom:50%;" />
 
 - This is pretty insightful. Unsurprisingly **price is the most important factor in terms of occupancy rate**, so pricing competitively will likely lead to better outcomes, though we would need to investigate what the actual relationship with pricing is. 
 - It's good to see that **a number of the engineered features are amongst the most important**. Lengths of descriptions alone seem to be a factor in occupancy. Likely the longer your description the higher the chance that your property will be rented. 
@@ -392,7 +391,7 @@ Random forests allow us to see the relative importance of each features, which i
 
 Seeing the bottom 20 features can be helpful as well.
 
-![](/Users/starplatinum87/Google Drive/DATA_SCIENCE/Courses/Udacity - Data Science Nanodegree/AirBnB_Seattle_Project/writeup/images/Screen Shot 2020-10-20 at 5.03.43 PM.png)
+<img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 5.03.43 PM.png" style="zoom:50%;" />
 
 - These results are similarly insightful and interesting. Amongst the features of the lowest importance are many of the neighborhoods. Though I suspect these are the neighborhoods that have the lowest occupancy, the fact that neighborhoods are not in the top 20 reinforces that they perhaps aren't a major factor in determining whether or not a property is occupied. 
 - Also property types of various kinds are either low importance or low priority. 
