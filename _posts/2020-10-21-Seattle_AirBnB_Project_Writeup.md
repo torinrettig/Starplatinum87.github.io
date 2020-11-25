@@ -3,7 +3,12 @@ layout: post
 title: Seattle AirBnB Project 
 ---
 
+<img src="{{ site.baseurl }}/images/airbnb_seattle_project/seattle_skyline_4_milkovi-skUTVJi8-jc-unsplash.jpg">
+
+Photo by [MILKOVÍ](https://unsplash.com/@milkovi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/seattle?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+
 ## 1. Project Overview
+
 This is a project that I felt would be relatively simple, but that turned out to be much more involved. While I have done several machine learning projects before this was the first time that I had such a high number of features that I couldn't practically dive deep on each one individually. This gave me valuable experience in coming up with strategies to deal with large numbers of features and prioritizing the methods to deal with them efficiently, while still maintaining some time constraints for the project. 
 
 The goal of this project was to take an AirBnB dataset for all of the properties in Seattle, Washington 2016 and use it to answer 3 questions about the data and then come up with a predictive model for a feature of the data. 
@@ -35,7 +40,7 @@ My questions and modeling focused on the property listings, so I didn't end up u
 
 My predictive model will attempt to predict the mean occupancy rate for a given property listing for the year. The independent variables will be details about the listing,  primarily from the listings dataset.
 
-## 2. Data Processing
+## Data Processing
 
 It's often said about 70-80% of an analysts' time is spent in the data processing phase and that was certainly the case for this project. I'll cover the highlights.
 
@@ -391,7 +396,7 @@ Random forests allow us to see the relative importance of each features, which i
 
 Seeing the bottom 20 features can be helpful as well.
 
-<img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 5.03.43 PM.png" style="zoom:50%;" />
+<img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 5.03.43 PM.png)
 
 - These results are similarly insightful and interesting. Amongst the features of the lowest importance are many of the neighborhoods. Though I suspect these are the neighborhoods that have the lowest occupancy, the fact that neighborhoods are not in the top 20 reinforces that they perhaps aren't a major factor in determining whether or not a property is occupied. 
 - Also property types of various kinds are either low importance or low priority. 
