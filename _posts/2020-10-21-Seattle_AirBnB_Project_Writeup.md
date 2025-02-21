@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Seattle AirBnB Project 
+title: Seattle Airbnb Project 
 ---
 
 <img src="{{ site.baseurl }}/images/airbnb_seattle_project/seattle_skyline_4_milkovi-skUTVJi8-jc-unsplash.jpg">
@@ -11,7 +11,7 @@ Photo by [MILKOVÍ](https://unsplash.com/@milkovi?utm_source=unsplash&utm_medium
 
 This is a project that I felt would be relatively simple, but that turned out to be much more involved. While I have done several machine learning projects before this was the first time that I had such a high number of features that I couldn't practically dive deep on each one individually. This gave me valuable experience in coming up with strategies to deal with large numbers of features and prioritizing the methods to deal with them efficiently, while still maintaining some time constraints for the project. 
 
-The goal of this project was to take an AirBnB dataset for all of the properties in Seattle, Washington 2016 and use it to answer 3 questions about the data and then come up with a predictive model for a feature of the data. 
+The goal of this project was to take an Airbnb dataset for all of the properties in Seattle, Washington 2016 and use it to answer 3 questions about the data and then come up with a predictive model for a feature of the data. 
 
 __Visit the [Github repo](https://github.com/torinrettig/AirBnB_Seattle_Project) to see the data, code and notebooks used in the project.__ 
 
@@ -28,13 +28,13 @@ My questions and modeling focused on the property listings, so I didn't end up u
 ### 3 Questions to Answer:
 
 1. **What is the overall occupancy in Seattle over the course of the year?** 
-   - Are there periodic shifts in the overall AirBnB occupancy in Seattle over the course of the year and if so what does this look like? This can help the company decide when and how to run promotions of various kinds and to work with hosts to help them get the most out of these time frames. 
+   - Are there periodic shifts in the overall Airbnb occupancy in Seattle over the course of the year and if so what does this look like? This can help the company decide when and how to run promotions of various kinds and to work with hosts to help them get the most out of these time frames. 
 2. **Does it pay to be a Superhost? How do the occupancy, prices and reviews of Superhosts compare to normal hosts?**
-   - Superhost is a special title that is automatically applied to listings where the host maintains high marks in many areas and has an established positive trend with AirBnB overall. 
+   - Superhost is a special title that is automatically applied to listings where the host maintains high marks in many areas and has an established positive trend with Airbnb overall. 
 
    - I'm interested in seeing if there is a correlation between being a superhost and other metrics, such as overall rating/reviews, occupancy, and rental prices. I'll compare these same metrics to non-Superhost listings. 
 3. **What neighborhoods have the highests occupancy rates?** 
-   - Knowing where to have a property for an AirBnB residence can be an important decision for hosts to make. Providing that information to them can help hosts be more effective, as well as helping AirBnB know how to focus its promotional efforts.
+   - Knowing where to have a property for an Airbnb residence can be an important decision for hosts to make. Providing that information to them can help hosts be more effective, as well as helping Airbnb know how to focus its promotional efforts.
 
 ### Prediction: Mean Annual Occupancy Rate
 
@@ -115,7 +115,7 @@ There were a good amount of opportunities for simple feature engineering in this
 
 - Occupancy rate itself, the target for prediction for the modeling phase, was  engineered as the mean of `available` from the calendar dataset joined on each listing. 
 
-  <img src="/Users/starplatinum87/Google Drive/DATA_SCIENCE/Courses/Udacity - Data Science Nanodegree/AirBnB_Seattle_Project/writeup/images/Screen Shot 2020-10-21 at 12.48.40 PM.png" style="zoom: 67%;" />
+  <img src="/Users/starplatinum87/Google Drive/DATA_SCIENCE/Courses/Udacity - Data Science Nanodegree/Airbnb_Seattle_Project/writeup/images/Screen Shot 2020-10-21 at 12.48.40 PM.png" style="zoom: 67%;" />
 
 ## 4. Final Dataset
 
@@ -125,7 +125,7 @@ The final dataset I ended up using was the **`listings`** dataset with all of th
 
 ### Q1: What is the overall occupancy in Seattle over the course of the year? 
 
-- Are there periodic shifts in the overall AirBnB occupancy in Seattle over the course of the year and if so what does this look like? This can help the company decide when and how to run promotions of various kinds and to work with hosts to help them get the most out of these time frames.
+- Are there periodic shifts in the overall Airbnb occupancy in Seattle over the course of the year and if so what does this look like? This can help the company decide when and how to run promotions of various kinds and to work with hosts to help them get the most out of these time frames.
 - We'll look at the mean of all prices each day over the course of the year.
 
 <img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 1.19.16 PM.png" style="zoom:50%;" />
@@ -136,7 +136,7 @@ The final dataset I ended up using was the **`listings`** dataset with all of th
 
 <img src="{{ site.baseurl }}/images/airbnb_seattle_project/Screen Shot 2020-10-20 at 1.20.18 PM.png" style="zoom: 50%;" />
 
-- **New Year's would appear to be the time we see the greatest spike in occupancy for AirBnB in Seattle**, as occupancy never gets close to that level throughout the rest of the year. 
+- **New Year's would appear to be the time we see the greatest spike in occupancy for Airbnb in Seattle**, as occupancy never gets close to that level throughout the rest of the year. 
 
 **Spring Break**
 
@@ -157,9 +157,9 @@ The final dataset I ended up using was the **`listings`** dataset with all of th
 - This last trend is somewhat interesting. **The dramatic spike at the end of the year corresponds to New Year's**, but there is a **pretty dramatic drop right before then**. 
 
 ### Q2: Does it pay to be a Superhost? How do the occupancy, prices and reviews of Superhosts compare to normal hosts?
-Superhost is a special title that is automatically applied to listings where the host maintains high marks in many areas and has an established positive trend with AirBnB overall. 
+Superhost is a special title that is automatically applied to listings where the host maintains high marks in many areas and has an established positive trend with Airbnb overall. 
 
-I'll explore whether there is a correlation between being a Superhost and other metrics, such as overall rating/reviews, occupancy, and rental prices to get a better idea if the Superhost program is effective or not for AirBnB.
+I'll explore whether there is a correlation between being a Superhost and other metrics, such as overall rating/reviews, occupancy, and rental prices to get a better idea if the Superhost program is effective or not for Airbnb.
 
 #### Occupancy - How do occupancy rates compare between normal hosts and Superhosts?
 
@@ -194,7 +194,7 @@ Given that occupancy rates are roughly the same for both host types, maybe avera
 - It seems **Superhosts tend to earn more with their listings than normal hosts** so **it may indeed be worth it to attempt to achieve that status**. This would be a good area for further study.
 
 ### Q3: What neighborhoods have the highest occupancy rates?
-Knowing where to have a property for an AirBnB residence can be an important decision for hosts to make. Providing that information to them can help hosts be more effective, as well as helping AirBnB know how to focus its promotional efforts.
+Knowing where to have a property for an Airbnb residence can be an important decision for hosts to make. Providing that information to them can help hosts be more effective, as well as helping Airbnb know how to focus its promotional efforts.
 
 Here are the occupancy rates for each of the 81 neighborhoods:
 
@@ -225,7 +225,7 @@ Pricing may be a factor in occupancy so it would be good to see what the relatio
 1. **What is the overall occupancy trend in Seattle over the course of the year?** 
    -  There are three distinct periods where we see a dramatic buildup of reservations followed by a leveling off: spring break, July 4th/early summer, and New Year's.
    - The New Year's spike is the largest and there is a dramatic drop right before New Year's. 
-   - New Year's is the time we see the greatest spike in occupancy for AirBnB in Seattle, as occupancy never gets close to that level throughout the rest of the year. 
+   - New Year's is the time we see the greatest spike in occupancy for Airbnb in Seattle, as occupancy never gets close to that level throughout the rest of the year. 
 2. **Does it pay to be a Superhost? How do the occupancy, prices and reviews of Superhosts compare to normal hosts?**
    - The occupancy rates of Superhosts and hosts are very close to each other, but the mean price of a Superhost listing is notably higher than that of a normal host, about 8% higher.
    - The higher mean listing price for Superhosts does not seem attributable to outliers skewing the metric. 
@@ -244,7 +244,7 @@ Pricing may be a factor in occupancy so it would be good to see what the relatio
 
 ## 6. Modeling 
 
-The modeling process ended up being the most straightforward step. The goal was to **create a model that can best predict the annual mean occupancy rate of a particular listing for AirBnB listings in Seattle.**
+The modeling process ended up being the most straightforward step. The goal was to **create a model that can best predict the annual mean occupancy rate of a particular listing for Airbnb listings in Seattle.**
 
 As the target is a continuous numerical variable this is **a regression problem** so I used a number of **regression algorithms** to approach it:
 
